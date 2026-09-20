@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function HSK1Page() {
   return (
     <main className="min-h-screen bg-gray-100 px-6 py-16">
@@ -11,15 +13,21 @@ export default function HSK1Page() {
         </p>
 
         <div className="mt-10 grid gap-6 md:grid-cols-2">
-          <div className="rounded-xl bg-white p-6 shadow-md">
+          
+          {/* TỪ VỰNG */}
+          <Link
+            href="/hsk1/Tuvung"
+            className="rounded-xl bg-white p-6 shadow-md transition hover:-translate-y-1 hover:shadow-lg"
+          >
             <h2 className="text-2xl font-bold">
               📚 Từ vựng
             </h2>
             <p className="mt-2 text-gray-600">
               Học từ vựng HSK 1.
             </p>
-          </div>
+          </Link>
 
+          {/* NGỮ PHÁP */}
           <div className="rounded-xl bg-white p-6 shadow-md">
             <h2 className="text-2xl font-bold">
               📖 Ngữ pháp
@@ -29,6 +37,7 @@ export default function HSK1Page() {
             </p>
           </div>
 
+          {/* ĐỌC */}
           <div className="rounded-xl bg-white p-6 shadow-md">
             <h2 className="text-2xl font-bold">
               📕 Đọc
@@ -38,6 +47,7 @@ export default function HSK1Page() {
             </p>
           </div>
 
+          {/* BÀI TẬP */}
           <div className="rounded-xl bg-white p-6 shadow-md">
             <h2 className="text-2xl font-bold">
               ✏️ Bài tập
@@ -46,6 +56,7 @@ export default function HSK1Page() {
               Luyện tập kiến thức HSK 1.
             </p>
           </div>
+
         </div>
       </div>
     </main>
