@@ -5,6 +5,7 @@ type Word = {
   hanzi: string;
   pinyin: string;
   meaning: string;
+  hanziAnimations: string[];
 };
 
 type FlashcardProps = {
@@ -12,6 +13,7 @@ type FlashcardProps = {
 };
 
 export default function Flashcard({ word }: FlashcardProps) {
+  console.log("FLASHCARD RENDER", word.hanzi);
   const [flipped, setFlipped] = useState(false);
 
   return (
@@ -27,12 +29,12 @@ export default function Flashcard({ word }: FlashcardProps) {
         {/* MẶT TRƯỚC */}
         <div className="absolute inset-0 flex flex-col items-center justify-center rounded-2xl border-5 border-[#6B4226] bg-white shadow-lg [backface-visibility:hidden]">
           <div
-            className="text-7xl font-medium text-[#6B4226]"
-            style={{
-              fontFamily: "'Noto Serif SC', 'Songti SC', serif",
-            }}
+          className="text-7xl font-medium text-[#6B4226]"
+          style={{
+          fontFamily: "'Noto Serif SC', 'Songti SC', serif",
+          }}
           >
-            {word.hanzi}
+          {word.hanzi}
           </div>
 
           <p className="mt-6 text-sm text-black">
@@ -40,16 +42,31 @@ export default function Flashcard({ word }: FlashcardProps) {
           </p>
         </div>
 
-        {/* Mặt sau*/}
-        <div className="absolute inset-0 flex flex-col items-center justify-center rounded-2xl border-5 border-[#6B4226] bg-blue-50 shadow-lg [backface-visibility:hidden] [transform:rotateY(180deg)]">
-          <div
-            className="text-7xl font-medium text-[#6B4226]"
-            style={{
-              fontFamily: "'Noto Serif SC', 'Songti SC', serif",
-            }}
-          >
-            {word.hanzi}
-          </div>
+        {/* Mặt sau */}
+<div className="absolute inset-0 flex flex-col items-center justify-center rounded-2xl border-5 border-[#6B4226] bg-blue-50 shadow-lg [backface-visibility:hidden] [transform:rotateY(180deg)]">
+
+  {/* Animation chữ Hán */}
+  {word.hanziAnimations?.length ? (
+    <div className="flex items-center justify-center gap-4">
+      {word.hanziAnimations.map((src, index) => (
+        <img
+          key={index}
+          src={src}
+          alt={`Nét chữ ${word.hanzi[index]}`}
+          className="h-16 w-16 object-contain"
+        />
+      ))}
+    </div>
+  ) : (
+    <div
+      className="text-7xl font-medium text-[#6B4226]"
+      style={{
+        fontFamily: "var(--font-noto-serif-sc)",
+      }}
+    >
+      {word.hanzi}
+    </div>
+  )}
        
 
           <div className="mt-5 text-2xl font-semibold text-[#003366]">

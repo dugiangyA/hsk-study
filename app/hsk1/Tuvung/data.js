@@ -4,6 +4,10 @@ export const vocabulary = {
       hanzi: "你好",
       pinyin: "nǐhǎo",
       meaning: "Xin chào",
+      hanziAnimations: [
+    "/hanzi/animations/你.gif",
+    "/hanzi/animations/好.gif",
+  ],
     },
     {
       hanzi: "老师",
@@ -1567,46 +1571,81 @@ export const vocabulary = {
       hanzi: "爱",
       pinyin: "ài",
       meaning: "Yêu, yêu thích",
+      hanziAnimations: [
+    "/hanzi/animations/爱.gif",
+    ],
     },
     {
       hanzi: "哪个",
       pinyin: "nǎge",
       meaning: "Cái nào",
+      hanziAnimations: [
+    "/hanzi/animations/哪.gif",
+    "/hanzi/animations/个.gif",
+  ],
     },
     {
       hanzi: "去年",
       pinyin: "qùnián",
       meaning: "Năm ngoái",
+      hanziAnimations: [
+    "/hanzi/animations/去.gif",
+    "/hanzi/animations/年.gif",
+  ],
     },
     {
       hanzi: "男朋友",
       pinyin: "nánpéngyou",
       meaning: "Bạn trai",
+hanziAnimations: [
+    "/hanzi/animations/男.gif",
+    "/hanzi/animations/朋.gif",
+    "/hanzi/animations/友.gif",
+  ],
     },
     {
       hanzi: "几",
       pinyin: "jǐ",
       meaning: "Vài",
+hanziAnimations: [
+    "/hanzi/animations/几.gif",
+  ],
     },
     {
       hanzi: "年",
       pinyin: "nián",
       meaning: "Năm",
+hanziAnimations: [
+    "/hanzi/animations/年.gif",
+  ],
     },
     {
       hanzi: "好玩儿",
       pinyin: "hǎowánr",
       meaning: "Vui, thú vị",
+hanziAnimations: [
+    "/hanzi/animations/好.gif",
+    "/hanzi/animations/玩.gif",
+    "/hanzi/animations/儿.gif",
+  ],
     },
     {
       hanzi: "西安",
-      pinyin: "Xī’ān",
+      pinyin: "Xī'ān",
       meaning: "Tây An",
+hanziAnimations: [
+    "/hanzi/animations/西.gif",
+    "/hanzi/animations/安.gif",
+  ],
     },
     {
       hanzi: "北京",
       pinyin: "Běijīng",
       meaning: "Bắc Kinh",
+hanziAnimations: [
+    "/hanzi/animations/北.gif",
+    "/hanzi/animations/京.gif",
+  ],
     },
     {
       hanzi: "飞机",

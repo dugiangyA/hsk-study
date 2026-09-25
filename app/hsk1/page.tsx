@@ -50,14 +50,17 @@ export default function HSK1Page() {
           </Link>
 
           {/* NGỮ PHÁP */}
-          <div className="rounded-xl bg-white p-6 shadow-md">
-            <h2 className="text-2xl font-bold text-[#6B4226]">
+          <Link
+            href="/hsk1/Nguphap"
+            className="rounded-xl bg-[#FFF9C4] p-6 border-5 border-[#6B4226] shadow-md transition hover:-translate-y-1 hover:shadow-lg"
+          >
+            <h2 className="text-2xl font-bold text-[#6B4226] text-center">
                Ngữ pháp
             </h2>
-            <p className="mt-2 text-[#6B4226]">
+            <p className="mt-2 text-black text-center">
               Học những cấu trúc ngữ pháp cơ bản.
             </p>
-          </div>
+          </Link>
 
           {/* ĐỌC */}
           <div className="rounded-xl bg-white p-6 shadow-md">
