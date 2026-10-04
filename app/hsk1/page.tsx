@@ -52,8 +52,7 @@ export default function HSK1Page() {
           {/* NGỮ PHÁP */}
           <Link
             href="/hsk1/Nguphap"
-            className="rounded-xl bg-[#FFF9C4] p-6 border-5 border-[#6B4226] shadow-md transition hover:-translate-y-1 hover:shadow-lg"
-          >
+            className="rounded-xl bg-[#FFF9C4] p-6 border-5 border-[#6B4226] shadow-md transition hover:-translate-y-1 hover:shadow-lg">
             <h2 className="text-2xl font-bold text-[#6B4226] text-center">
                Ngữ pháp
             </h2>
@@ -63,14 +62,16 @@ export default function HSK1Page() {
           </Link>
 
           {/* ĐỌC */}
-          <div className="rounded-xl bg-white p-6 shadow-md">
-            <h2 className="text-2xl font-bold text-[#6B4226]">
-               Luyện phát âm
+          <Link
+            href="/hsk1/Nghedoc"
+           className="rounded-xl bg-[#FFF9C4] p-6 border-5 border-[#6B4226] shadow-md transition hover:-translate-y-1 hover:shadow-lg">
+            <h2 className="text-2xl font-bold text-[#6B4226] text-center">
+               Luyện nghe và phát âm
             </h2>
-            <p className="mt-2 text-[#6B4226]">
-              Luyện đọc bài khóa tiếng Trung.
+            <p className="mt-2 text-black text-center">
+              Luyện nghe và đọc bài khóa tiếng Trung.
             </p>
-          </div>
+            </Link>
 
           {/* BÀI TẬP */}
           <div className="rounded-xl bg-white p-6 shadow-md">
