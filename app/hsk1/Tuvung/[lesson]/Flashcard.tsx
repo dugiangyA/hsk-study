@@ -38,7 +38,7 @@ export default function Flashcard({ word }: FlashcardProps) {
           </div>
 
           <p className="mt-6 text-sm text-black">
-            Bấm để xem pinyin và nghĩa
+            Bấm để xem Hán tự động, pinyin và nghĩa
           </p>
         </div>
 
@@ -53,7 +53,7 @@ export default function Flashcard({ word }: FlashcardProps) {
           key={index}
           src={src}
           alt={`Nét chữ ${word.hanzi[index]}`}
-          className="h-16 w-16 object-contain"
+          className="h-40 w-40 object-contain"
         />
       ))}
     </div>
