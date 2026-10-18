@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default function GrammarPage() {
-  const lessons = Array.from({ length: 31 }, (_, index) => index + 1);
+  const lessons = Array.from({ length: 30 }, (_, index) => index + 1);
 
   return (
     <main className="min-h-screen bg-[#EEF4F1] px-6 py-12 md:py-16">
@@ -13,7 +13,6 @@ export default function GrammarPage() {
             href="/hsk1"
             className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-[#356859] shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
           >
-            <span>←</span>
             Quay lại HSK 1
           </Link>
         </div>
@@ -55,7 +54,7 @@ export default function GrammarPage() {
           </div>
 
           <p className="text-sm text-gray-500">
-            31 bài học · HSK 1
+            30 bài học · HSK 1
           </p>
         </div>
 
@@ -94,6 +93,79 @@ export default function GrammarPage() {
             </Link>
           ))}
         </div>
+        
+        {/* Bài học đặc biệt */}
+        <section className="mt-12">
+          <div>
+
+            <h2 className="mt-1 text-2xl font-bold text-[#29483F] md:text-3xl">
+              ⭐ Bài học đặc biệt
+            </h2>
+
+            <p className="mt-2 text-sm leading-6 text-gray-600 md:text-base">
+              Học cách đọc số và số tiền trong các tình huống thực tế.
+            </p>
+          </div>
+
+          <div className="mt-6 grid grid-cols-1 gap-5 md:grid-cols-2">
+            {/* Bài cách đọc số */}
+            <Link
+              href="/hsk1/Nguphap/sonumber"
+              className="group rounded-2xl border border-[#D9E6E0] bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-[#A8C9BA] hover:shadow-lg"
+            >
+              <div className="flex items-start justify-between">
+                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[#E2F0EA] text-3xl">
+                  🔢
+                </div>
+
+                <span className="text-2xl text-[#B8CCC4] transition group-hover:translate-x-1 group-hover:text-[#356859]">
+                  →
+                </span>
+              </div>
+
+              <h3 className="mt-5 text-xl font-bold text-[#29483F]">
+                Cách đọc số trong tiếng Trung
+              </h3>
+
+              <p className="mt-2 text-sm leading-6 text-gray-600">
+                Học cách đọc số từ cơ bản đến hàng chục, hàng trăm, hàng nghìn, hàng vạn và luyện tập với các ví dụ.
+              </p>
+
+              <div className="mt-5 inline-flex rounded-full bg-[#E2F0EA] px-3 py-1.5 text-sm font-semibold text-[#356859]">
+                Học cách đọc số
+              </div>
+            </Link>
+
+            {/* Bài cách đọc số tiền */}
+            <Link
+              href="/hsk1/Nguphap/money"
+              className="group rounded-2xl border border-[#D9E6E0] bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-[#A8C9BA] hover:shadow-lg"
+            >
+              <div className="flex items-start justify-between">
+                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[#FFF0D9] text-3xl">
+                  💰
+                </div>
+
+                <span className="text-2xl text-[#B8CCC4] transition group-hover:translate-x-1 group-hover:text-[#356859]">
+                  →
+                </span>
+              </div>
+
+              <h3 className="mt-5 text-xl font-bold text-[#29483F]">
+                Cách đọc số tiền trong tiếng Trung
+              </h3>
+
+              <p className="mt-2 text-sm leading-6 text-gray-600">
+                Tìm hiểu 元、块、角、毛、分 và luyện cách đọc giá tiền
+                trong các tình huống mua sắm.
+              </p>
+
+              <div className="mt-5 inline-flex rounded-full bg-[#FFF0D9] px-3 py-1.5 text-sm font-semibold text-[#94602C]">
+                Học cách đọc tiền
+              </div>
+            </Link>
+          </div>
+        </section>
 
         {/* Gợi ý học */}
         <section className="mt-12 rounded-2xl border border-[#D9E6E0] bg-[#F8FCFA] p-6 text-center shadow-sm md:p-8">

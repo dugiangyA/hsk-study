@@ -22,7 +22,7 @@ export default function VocabularyPage() {
   };
 
   return (
-    <main className="min-h-screen bg-[#F7F2E8] px-6 py-12 md:py-16">
+    <main className="min-h-screen bg-[#E9F2F2] px-6 py-12 md:py-16">
       <div className="mx-auto max-w-6xl">
 
         {/* Header */}
@@ -31,7 +31,6 @@ export default function VocabularyPage() {
             href="/hsk1"
             className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-[#6B4226] shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
           >
-            <span>←</span>
             Quay lại HSK 1
           </Link>
         </div>

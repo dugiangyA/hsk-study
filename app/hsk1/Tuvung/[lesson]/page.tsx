@@ -32,7 +32,7 @@ export default async function LessonPage({ params }: PageProps) {
 
   if (!words || !Array.isArray(words)) {
     return (
-      <main className="min-h-screen bg-[#F7F2E8] px-6 py-12 md:py-16">
+      <main className="min-h-screen bg-[#E9F2F2] px-6 py-12 md:py-16">
         <div className="mx-auto max-w-4xl">
           <div className="rounded-3xl bg-white p-8 text-center shadow-sm">
             <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-[#FFF4D6] text-3xl">
@@ -51,7 +51,7 @@ export default async function LessonPage({ params }: PageProps) {
               href="/hsk1/Tuvung"
               className="mt-6 inline-flex items-center gap-2 rounded-full bg-[#6B4226] px-5 py-2.5 font-semibold text-white transition hover:-translate-y-0.5 hover:bg-[#51321D] hover:shadow-md"
             >
-              ← Quay lại bài học
+              Quay lại bài học
             </Link>
           </div>
         </div>
@@ -60,7 +60,7 @@ export default async function LessonPage({ params }: PageProps) {
   }
 
   return (
-    <main className="min-h-screen bg-[#F7F2E8] px-6 py-10 md:py-14">
+    <main className="min-h-screen bg-[#E9F2F2] px-6 py-10 md:py-14">
       <div className="mx-auto max-w-4xl">
 
         {/* Back button */}
@@ -69,7 +69,6 @@ export default async function LessonPage({ params }: PageProps) {
             href="/hsk1/Tuvung"
             className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-[#6B4226] shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
           >
-            <span>←</span>
             Quay lại bài học
           </Link>
         </div>
@@ -149,8 +148,7 @@ export default async function LessonPage({ params }: PageProps) {
           </h2>
 
           <p className="mx-auto mt-2 max-w-xl text-sm leading-6 text-gray-600">
-            Hãy đọc từ mới thành tiếng, xem nghĩa và thử đặt câu.
-            Ôn lại nhiều lần sẽ giúp bạn ghi nhớ lâu hơn.
+            Luyện viết chữ Hán nhiều lần sẽ giúp bạn ghi nhớ lâu hơn.
           </p>
         </section>
 

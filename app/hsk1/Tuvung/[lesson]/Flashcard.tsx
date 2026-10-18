@@ -18,7 +18,7 @@ export default function Flashcard({ word }: FlashcardProps) {
 
   return (
     <div
-      className="h-64 w-full cursor-pointer [perspective:1000px]"
+      className="h-64 w-80 cursor-pointer [perspective:1000px] mx-auto w-full max-w-xl"
       onClick={() => setFlipped(!flipped)}
     >
       <div
@@ -38,7 +38,7 @@ export default function Flashcard({ word }: FlashcardProps) {
           </div>
 
           <p className="mt-6 text-sm text-black">
-            Bấm để xem Hán tự động, pinyin và nghĩa
+            Bấm để xem Hán tự động, Pinyin và Nghĩa
           </p>
         </div>
 
@@ -53,7 +53,7 @@ export default function Flashcard({ word }: FlashcardProps) {
           key={index}
           src={src}
           alt={`Nét chữ ${word.hanzi[index]}`}
-          className="h-40 w-40 object-contain"
+          className="h-20 w-20 object-contain"
         />
       ))}
     </div>

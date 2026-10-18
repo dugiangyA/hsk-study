@@ -527,7 +527,7 @@ const rawVocabulary = {
     },
     {
       hanzi: "吃",
-      pinyin: "Chī",
+      pinyin: "chī",
       meaning: "Ăn",
     },
     {
@@ -1210,7 +1210,7 @@ const rawVocabulary = {
     {
       hanzi: "天",
       pinyin: "tiān",
-      meaning: "Ngày",
+      meaning: "Tiết trời",
     },
     {
       hanzi: "下雨",

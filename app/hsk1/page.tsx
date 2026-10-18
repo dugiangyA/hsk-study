@@ -33,7 +33,7 @@ const sections = [
     title: "Bài tập",
     subtitle: "Practice",
     description: "Ôn tập và kiểm tra kiến thức HSK 1 sau mỗi bài học.",
-    href: "#",
+    href: "/hsk1/Baitap",
     icon: "练",
     bg: "bg-[#F7F3EA]",
   },
@@ -57,9 +57,6 @@ export default function HSK1Page() {
             href="/"
             className="group inline-flex items-center gap-2 rounded-full border border-[#D8C4A8] bg-white/80 px-5 py-2.5 text-sm font-medium text-[#6B4226] shadow-sm backdrop-blur transition hover:-translate-y-0.5 hover:bg-white hover:shadow-md"
           >
-            <span className="transition-transform group-hover:-translate-x-1">
-              ←
-            </span>
             Về trang chủ
           </Link>
         </div>

@@ -54,7 +54,7 @@ export const grammar = {
   pinyin: "ma",
   meaning: "không / phải không",
   explanation:
-    "吗 là trợ từ nghi vấn được đặt ở cuối một câu trần thuật để biến câu đó thành câu hỏi trả lời Có hoặc Không?. Trật tự từ trong câu không thay đổi.",
+    "吗 là trợ từ nghi vấn được đặt ở cuối một câu trần thuật để biến câu đó thành câu hỏi trả lời Có hoặc Không. Trật tự từ trong câu không thay đổi.",
   structure: "Câu trần thuật + 吗？",
   examples: [
     {
@@ -220,7 +220,7 @@ export const grammar = {
     {
       chinese: "你是老师吧？",
       pinyin: "Nǐ shì lǎoshī ba?",
-      vietnamese: "Bạn là giáo viên đúng không / chắc?",
+      vietnamese: "Bạn chắc là giáo viên đúng không?",
     },
   ],
 },
@@ -265,12 +265,12 @@ export const grammar = {
     {
       chinese: "你怎么去学校？",
       pinyin: "Nǐ zěnme qù xuéxiào?",
-      vietnamese: "Bạn đến trường bằng cách nào / đi bằng gì?",
+      vietnamese: "Bạn đến trường bằng cách nào?",
     },
     {
       chinese: "你怎么了？",
       pinyin: "Nǐ zěnme le?",
-      vietnamese: "Bạn làm sao thế / có chuyện gì vậy?",
+      vietnamese: "Bạn làm sao thế? / Bạn có chuyện gì vậy?",
     },
   ],
 },
@@ -324,7 +324,7 @@ export const grammar = {
     },
   ],
 },
-15: {
+14: {
   title: "存现句",
   pinyin: "cúnxiàn jù",
   meaning: "Câu tồn hiện",
@@ -349,7 +349,7 @@ export const grammar = {
     },
   ],
 },
-16: {
+15: {
   title: "第",
   pinyin: "dì",
   meaning: "thứ (chỉ số thứ tự)",
@@ -374,7 +374,7 @@ export const grammar = {
     },
   ],
 },
-17: {
+16: {
   title: "形容词谓语句",
   pinyin: "xíngróngcí wèiyǔ jù",
   meaning: "Câu vị ngữ tính từ",
@@ -385,7 +385,7 @@ export const grammar = {
     {
       chinese: "今天天气很好。",
       pinyin: "Jīntiān tiānqì hěn hǎo.",
-      vietnamese: "Thời tiết hôm nay rất tốt.",
+      vietnamese: "Thời tiết hôm nay đẹp đấy.",
     },
     {
       chinese: "汉语不太难。",
@@ -395,11 +395,11 @@ export const grammar = {
     {
       chinese: "这个苹果很大。",
       pinyin: "Zhège píngguǒ hěn dà.",
-      vietnamese: "Quả táo này rất to.",
+      vietnamese: "Quả táo này to đấy.",
     },
   ],
 },
-18: {
+17: {
   title: "怎么样",
   pinyin: "zěnmeyàng",
   meaning: "thế nào?, ra sao?, như thế nào?",
@@ -424,7 +424,7 @@ export const grammar = {
     },
   ],
 },
-19: {
+18: {
   title: "副词、时间词语作状语的位置",
   pinyin: "fùcí, shíjiān cíyǔ zuò zhuàngyǔ de wèizhì",
   meaning: "Vị trí của phó từ và từ chỉ thời gian làm trạng ngữ",
@@ -449,7 +449,7 @@ export const grammar = {
     },
   ],
 },
-20: {
+19: {
   title: "正反疑问句",
   pinyin: "zhèngfǎn yíwènjù",
   meaning: "Câu hỏi chính phản",
@@ -474,7 +474,7 @@ export const grammar = {
     },
   ],
 },
-21: {
+20: {
   title: "要",
   pinyin: "yào",
   meaning: "muốn, cần, phải, sắp",
@@ -499,7 +499,7 @@ export const grammar = {
     },
   ],
 },
-22: {
+21: {
   title: "在、正在",
   pinyin: "zài, zhèngzài",
   meaning: "đang (biểu thị hành động đang diễn ra)",
@@ -524,7 +524,7 @@ export const grammar = {
     },
   ],
 },
-23: {
+22: {
   title: "非主谓句",
   pinyin: "fēi zhǔwèi jù",
   meaning: "Câu không có chủ-vị",
@@ -549,12 +549,12 @@ export const grammar = {
     },
   ],
 },
-24: {
+23: {
   title: "了",
   pinyin: "le",
   meaning: "đã, rồi (trợ từ động thái / trợ từ ngữ khí)",
   explanation:
-    "Trợ từ “了” có hai cách dùng cơ bản: (1) Đứng sau động từ (trợ từ động thái) để biểu thị hành động đã hoàn thành; (2) Đứng ở cuối câu (trợ từ ngữ khí) để biểu thị sự thay đổi trạng thái hoặc một tình huống mới xuất hiện (đã... rồi). Dạng phủ định của hành động hoàn thành dùng 没 + Động từ (và bỏ “了”).",
+    "Trợ từ “了” có hai cách dùng cơ bản: (1) Đứng sau động từ (trợ từ động thái) để biểu thị hành động đã hoàn thành; (2) Đứng ở cuối câu (trợ từ ngữ khí) để biểu thị sự thay đổi trạng thái hoặc một tình huống mới xuất hiện (đã... rồi).",
   structure: "Chủ ngữ + Động từ + 了 + Tân ngữ  hoặc  Chủ ngữ + Động từ / Tính từ + ... + 了",
   examples: [
     {
@@ -574,7 +574,7 @@ export const grammar = {
     },
   ],
 },
-25: {
+24: {
   title: "太……了",
   pinyin: "tài ... le",
   meaning: "quá ... rồi, ... quá",
@@ -599,7 +599,7 @@ export const grammar = {
     },
   ],
 },
-26: {
+25: {
   title: "可以",
   pinyin: "kěyǐ",
   meaning: "có thể, được (phép)",
@@ -624,7 +624,7 @@ export const grammar = {
     },
   ],
 },
-27: {
+26: {
   title: "动词 + 一下",
   pinyin: "dòngcí + yíxià",
   meaning: "làm một chút, một lát, thử...",
@@ -649,7 +649,7 @@ export const grammar = {
     },
   ],
 },
-28: {
+27: {
   title: "双宾语句",
   pinyin: "shuāng bīnyǔ jù ",
   meaning: "Câu hai tân ngữ",
@@ -674,14 +674,14 @@ export const grammar = {
     },
   ],
 },
-29: {
+28: {
   title: "离合词",
   pinyin: "líhécí",
-  meaning: "Động từ ly hợp",
+  meaning: "Động từ ly hợp (A-B)",
   explanation:
-    "Động từ ly hợp (như 睡觉, 唱歌, 跳舞, 见面, 帮忙...) là các từ kết hợp theo cấu trúc “Động từ + Tân ngữ” . Đặc điểm quan trọng nhất: KHÔNG ĐƯỢC mang thêm tân ngữ trực tiếp ở phía sau (không nói *见面他, *帮忙我). Khi muốn bổ sung thông tin (như thời gian, số lượng, trợ từ “了/过/着”) hoặc tân ngữ chỉ đối tượng, phải chèn thành phần đó vào GIỮA động từ và tân ngữ của nó, hoặc kết hợp với cấu trúc giới từ.",
+  "Động từ ly hợp là loại động từ đặc biệt gồm 2 chữ đi liền nhau (như 睡觉 - ngủ, 见面 - gặp mặt), nhưng khi dùng có thể tách đôi ra để chèn các từ khác (như thời gian, số lần) vào chính giữa. Động từ ly hợp không được phép đi kèm tân ngữ ở phía sau.",
   structure:
-    "Động từ + 了 / 过 / Số lượng từ / Thời lượng + Tân ngữ nội tại  hoặc  跟 / 对 / 帮 + Đối tượng] + Động từ ly hợp",
+    "Chủ ngữ + giới từ + đối tượng + A-B hoặc Chủ ngữ + A + thời gian/số lần + B",
   examples: [
     {
       chinese: "昨晚我睡了八个小时觉。",
@@ -700,14 +700,14 @@ export const grammar = {
     },
   ],
 },
-30: {
+29: {
   title: "都",
   pinyin: "dōu",
   meaning: "đều, đã",
   explanation:
-    "Phó từ “都” đứng trước động từ hoặc tính từ để biểu thị tổng quát, nhấn mạnh tất cả các đối tượng được đề cập ở phía trước (“đều”). Chủ ngữ hoặc thành phần đứng trước “都” thường là danh từ/đại từ số nhiều hoặc danh từ đại diện cho tập hợp. Ngoài ra, “都” còn dùng trong cấu trúc “都……了” để biểu thị thời gian đã muộn hoặc sự việc đã hoàn thành/đạt tới một mức độ nào đó (“đã... rồi”).",
+    "Phó từ “都” đứng trước động từ hoặc tính từ để biểu thị tổng quát, nhấn mạnh tất cả các đối tượng được đề cập ở phía trước (đều). Chủ ngữ hoặc thành phần đứng trước “都” thường là danh từ/đại từ số nhiều hoặc danh từ đại diện cho tập hợp. Ngoài ra, “都” còn dùng trong cấu trúc “都……了” để biểu thị thời gian đã muộn hoặc sự việc đã hoàn thành/đạt tới một mức độ nào đó (“đã... rồi”).",
   structure:
-    "Chủ ngữ (số nhiều) + 都 + [Động từ / Tính từ]  hoặc  都 + [Thời gian / Số lượng] + 了",
+    "Chủ ngữ (số nhiều) + 都 + [Động từ/Tính từ]  hoặc  都 + [Thời gian/Danh từ/Động từ/Tính từ] + 了",
   examples: [
     {
       chinese: "我们都会写了。",
@@ -726,7 +726,7 @@ export const grammar = {
     },
   ],
 },
-31: {
+30: {
   title: "并列复句（...，还/也...)",
   pinyin: "bìngliè fùjù (..., hái / yě ...)",
   meaning: "Câu phức đẳng lập với “...，还/也...” (cũng... / còn...)",
@@ -747,7 +747,7 @@ export const grammar = {
     {
       chinese: "我喜欢喝中国茶，还喜欢吃中国菜。",
       pinyin: "Wǒ xǐhuan hē Zhōngguó chá, hái xǐhuan chī Zhōngguó cài.",
-      vietnamese: "Tôi thích uống trà Trung Quốc, còn thích ăn món Trung Quốc.",
+      vietnamese: "Tôi thích uống trà Trung Quốc, mà còn thích ăn món Trung Quốc.",
     },
   ],
 },

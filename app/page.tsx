@@ -162,9 +162,6 @@ export default function Home() {
                   className="group inline-flex items-center gap-3 rounded-xl bg-[#1B365D] px-6 py-3.5 text-sm font-bold text-white shadow-lg shadow-[#1B365D]/15 transition hover:-translate-y-0.5 hover:bg-[#142A49]"
                 >
                   Bắt đầu với HSK 1
-                  <span className="transition-transform group-hover:translate-x-1">
-                    →
-                  </span>
                 </Link>
 
                 <a
@@ -221,7 +218,7 @@ export default function Home() {
 
                   <div className="flex items-center justify-between">
                     <span className="rounded-full bg-[#EAF0F6] px-3 py-1 text-xs font-bold text-[#1B365D]">
-                      HSK 1
+                      HSK 3.0
                     </span>
 
                     <span className="text-xs text-[#9AA4AE]">
@@ -382,13 +379,6 @@ export default function Home() {
                       <h3 className="text-2xl font-extrabold text-[#1B365D]">
                         {hsk.title}
                       </h3>
-
-                      {hsk.active && (
-                        <span className="rounded-full bg-[#F4E7D4] px-2.5 py-1 text-[10px] font-bold text-[#8A603A]">
-                          ĐANG HỌC
-                        </span>
-                      )}
-
                     </div>
 
                     <p className="mt-1 text-sm font-bold text-[#A17A55]">
@@ -503,7 +493,6 @@ export default function Home() {
                 className="mt-6 inline-flex items-center gap-3 rounded-xl bg-white px-6 py-3.5 text-sm font-bold text-[#1B365D] shadow-lg transition hover:-translate-y-0.5 hover:bg-[#FFF9ED]"
               >
                 Bắt đầu học HSK 1
-                <span>→</span>
               </Link>
 
             </div>

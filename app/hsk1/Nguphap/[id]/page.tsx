@@ -65,27 +65,21 @@ export default async function GrammarDetailPage({ params }: PageProps) {
             文
           </div>
 
-          <div className="relative z-10">
-            <div className="inline-flex items-center rounded-full bg-white/10 px-4 py-2 text-sm font-medium">
-              HSK 1 · Ngữ pháp
-            </div>
-
-            <p className="mt-6 text-sm font-medium text-white/60">
-              Bài {lessonNumber}
-            </p>
-
-            <h1 className="mt-1 text-4xl font-bold tracking-tight md:text-5xl">
-              {grammar.title}
+          <div className="relative z-10 space-y-4">
+            <h1 className="text-3xl font-bold tracking-tight md:text-3xl text-white">
+             Bài {lessonNumber}
             </h1>
 
-            <p className="mt-3 text-lg text-white/75">
-              {grammar.pinyin}
-            </p>
+            <h1 className="text-4xl font-bold tracking-tight md:text-4xl text-white">
+               {grammar.title}
+            </h1>
 
-            <div className="mt-5 inline-flex rounded-full bg-white/10 px-4 py-2 text-sm text-white/90">
-              {grammar.meaning}
-            </div>
+            <div className="space-y-1 pt-1">
+              <p className="text-xl font-medium text-white/90">
+                  {grammar.pinyin} - {grammar.meaning}
+              </p>
           </div>
+        </div>
         </section>
 
         {/* Nội dung chính */}
@@ -220,7 +214,7 @@ export default async function GrammarDetailPage({ params }: PageProps) {
             href="/hsk1/Nguphap"
             className="inline-flex items-center gap-2 rounded-full bg-[#356859] px-6 py-3 font-semibold text-white transition hover:-translate-y-0.5 hover:bg-[#294F43] hover:shadow-md"
           >
-            ← Xem các bài ngữ pháp khác
+            Xem các bài ngữ pháp khác
           </Link>
         </div>
 
